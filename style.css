@@ -82,8 +82,12 @@
   font-size: 40px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 360px) {
   .panel p {
     font-size: 1em;
+  }
+
+  .panel p:nth-child(2) {
+    font-size: 1.2rem;
   }
 }
